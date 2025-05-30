@@ -26,8 +26,16 @@ nav ul {
     color: #AEAEAC;
     font-family: "Inria Sans", sans-serif;
     font-size: 30px;
-    margin-top: 15px;
     cursor: pointer;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block; /* todos os links ocupam a área do li */
+    text-decoration: none;
+    color: inherit; /* herda a cor do li */
+    font-family: inherit;
+    font-size: inherit;
 }
 
 li:hover {
@@ -40,7 +48,6 @@ li:hover {
     margin: 0 auto;     /* centraliza no meio */
     padding: 0 100px;    /* espaçamento lateral */
 }
-
 
 .brand {
     color: #F7FF00;
@@ -60,6 +67,7 @@ li:hover {
 }
 
 .menu-button {
+    display: inline-block;
     text-decoration: none;
     color: #151515;
     background-color: #F7FF00;
@@ -68,3 +76,8 @@ li:hover {
     font-family: "Inria Sans", sans-serif;
     font-size: 30px;
 }
+
+.menu-button:hover {
+    background-color: #fffb00;
+}
+
