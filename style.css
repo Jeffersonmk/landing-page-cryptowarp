@@ -77,18 +77,22 @@ li:hover {
     font-size: 30px;
 }
 
-#menu-button:hover {
+#menu-button:hover,
+#saiba-mais:hover {
     background-color: #fffb00;
 }
 
 h1 {
     font-family: "Fjalla One", sans-serif;
     color: #FFFFFF;
+    font-size: 80px;
 }
 
 h2 {
     font-family: "Fjalla One", sans-serif;
     color: #AEAEAC;
+    font-size: 25px;
+    margin-top: 30px;
 }
 
 #saiba-mais {
@@ -99,7 +103,9 @@ h2 {
     padding: 15px;
     border-radius: 20px;
     cursor: pointer;
+    border: none;
 }
+
 
 #play {
     width: 60px;
@@ -110,6 +116,7 @@ h2 {
     display: flex;               /* adiciona flex */
     align-items: center;         /* centraliza vertical */
     justify-content: center;     /* centraliza horizontal */
+    cursor: pointer;
 }
 
 
@@ -128,6 +135,21 @@ h2 {
     text-decoration: none;
 }
 
-img {
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+
+.texto {
+    margin-top: 103px;
+    float: left;
+    width: 40%;
+}
+
+.imagem {
     float: right;
 }
