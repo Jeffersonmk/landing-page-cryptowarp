@@ -108,8 +108,8 @@ h2 {
 
 
 #play {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #3C3C3C;
     border: none;
@@ -123,9 +123,13 @@ h2 {
 #play #triangulo {
     width: 0;
     height: 0;
-    border-left: 15px solid #ff0;  /* amarelo */
+    border-left: 20px solid #ff0;  /* amarelo */
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
+}
+
+#play:hover {
+    background-color: #525252
 }
 
 #link-video {
@@ -135,14 +139,12 @@ h2 {
     text-decoration: none;
 }
 
-
 .botoes {
     display: flex;
     align-items: center;
     gap: 60px;
     margin-top: 50px;
 }
-
 
 .texto {
     margin-top: 103px;
@@ -152,4 +154,9 @@ h2 {
 
 .imagem {
     float: right;
+    width: 57%;
+}
+
+#link-video:hover {
+    color: #e9e9e9;
 }
