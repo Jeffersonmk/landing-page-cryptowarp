@@ -15,8 +15,9 @@
             <div class="menu-logo">
                 <img src="./images/logo header/logo.png" alt="btc-logo">
                 <a href="#" class="brand">CRYPTOWARP</a>
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
             </div>
-            <nav>
+            <nav id="mobile-menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre Nós</a></li>
@@ -48,5 +49,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>
