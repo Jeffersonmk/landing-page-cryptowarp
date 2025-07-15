@@ -12,8 +12,8 @@ A **Cryptowarp** é uma plataforma fictícia que promete transferências instant
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML5 (semântico)
-- CSS3 (responsividade e estilização visual)
+- HTML5
+- CSS3
 - Design visual baseado em tema escuro com cores vibrantes
 
 ---
